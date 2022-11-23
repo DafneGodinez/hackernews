@@ -3,9 +3,10 @@ import graphql_jwt #JWT -- JSON Web Token
 
 import links.schema
 import users.schema
+import ai.schema
 
 
-class Query(users.schema.Query, links.schema.Query, graphene.ObjectType):
+class Query(users.schema.Query, links.schema.Query, ai.schema.Query, graphene.ObjectType):
     pass
 
 class Mutation(users.schema.Mutation, links.schema.Mutation, graphene.ObjectType):
