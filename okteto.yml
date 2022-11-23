@@ -1,0 +1,12 @@
+build:
+  dafnegodinez:
+    image: okteto.dev/dafnegodinez:latest
+
+deploy:
+  - okteto build # build the image with the latest code
+  - kubectl apply -f manifests # create all the resources in kubernetes
+dev:
+  adsoftsito:
+    command: bash
+    sync:
+    - .:/hackernews
