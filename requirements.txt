@@ -11,3 +11,4 @@ numpy
 coverage
 mixer
 python-decouple
+django-health-check 
