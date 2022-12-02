@@ -21,8 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#"SECRET_KEY = '5c=)=d8-p0*)95617u8x!mn=yfpbu*hn@gm#m31ceqgiah5ep1'
-SECRET_KEY = config("DEV_SECRET_KEY", default='')
+SECRET_KEY = '5c=)=d8-p0*)95617u8x!mn=yfpbu*hn@gm#m31ceqgiah5ep1'
+#SECRET_KEY = config("DEV_SECRET_KEY", default='')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -91,11 +91,11 @@ DEV_PORT = config("DEV_PORT", default=5432)
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-	'NAME': DEV_DATABASE, 
-	'USER': DEV_USER,
-	'PASSWORD': DEV_PASSWORD, 
-	'HOST': DEV_HOST, 
-	'PORT': DEV_PORT, 
+	'NAME': 'woizthst', 
+	'USER': 'woizthst',
+	'PASSWORD': '2OvF4jzDA0TwI-qhN0AN7pl-D7MZ3zWG', 
+	'HOST': 'heffalump.db.elephantsql.com', 
+	'PORT': '5432', 
     }
 }
 
