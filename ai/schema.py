@@ -8,7 +8,7 @@ import numpy as np
 
 from PIL import Image
 
-LINEAR_SERVER_URL = 'https://linear-model-service-dafnegodinez.cloud.okteto.net/v1/models/linear-model:predict'
+LINEAR_SERVER_URL = 'https://dafnegodinez-dafnegodinez.cloud.okteto.net//v1/models/linear-model:predict'
 
 RESNET_SERVER_URL = 'https://resnet-service-dafnegodinez.cloud.okteto.net/v1/models/resnet:predict'
 
